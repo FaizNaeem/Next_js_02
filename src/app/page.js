@@ -1,5 +1,5 @@
 import Image from 'next/image'
-async function getData() {
+// async function getData() {
   // const res = await fetch('https://jsonplaceholder.typicode.com/users')
   const res = await fetch('https://dog.ceo/api/breeds/image/random',{cache:"no-cache"})
     
@@ -13,7 +13,8 @@ async function getData() {
   }
  
   return res.json()
-}
+// }
+import  dog from '../app/dogApi/dog'
 export default async function Home() {
   const hello = await getData()
   console.log(hello);
