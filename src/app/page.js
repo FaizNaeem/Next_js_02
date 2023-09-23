@@ -16,7 +16,7 @@ import Image from 'next/image'
 // }
 import  dog from '../app/dogApi/dog'
 export default async function Home() {
-  const hello = await getData()
+  const hello = await dog()
   console.log(hello);
   return (
 <>
