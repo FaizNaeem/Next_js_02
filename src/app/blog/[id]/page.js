@@ -9,6 +9,7 @@ export default async function IdPage({params}) {
     <div className='flex min-h-screen flex-col justify-between p-23'>
        <div>
         <h2>user name : {user.name}</h2>
+        <h2>user name : {user.email}</h2>
        </div>
 
     </div>
