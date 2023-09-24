@@ -9,8 +9,8 @@ export default async function Show() {
             get.map((e,)=>{
 return(
     <Link href={`blog/${e.id}`}>
-    <div className='p-5 w-full m-4 bg-blue-300 rounded-md'>
-        <h1 className='font-bold border'>{e.name}</h1>
+    <div className='p-5 w-full m-4 bg-slate-300 rounded-md'>
+        <h1 className='font-bold '>{e.name}</h1>
 <p>{e.email}</p>
     </div>
     </Link>

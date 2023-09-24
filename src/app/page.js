@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from "next/link"
-import Blog from '../blog/page'
+import Blog from '../app/blog/page'
 export default function Page() {
   return (
     <div>
