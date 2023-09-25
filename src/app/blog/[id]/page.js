@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import getUserPost from '@/app/lib/getUserPost'
 import getUserDetail from '@/app/lib/getUserDetails'
 import UserPost from '@/com/UserPost'
